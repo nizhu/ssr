@@ -13,8 +13,6 @@ function addDestMaker(){
 function hasSensor(position){
   var directionsService = new google.maps.DirectionsService();
   var directionsDisplay = new google.maps.DirectionsRenderer();
-  console.log(position.coords.latitude);
-  console.log(position.coords.longitude);
   var originLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   directionsDisplay.setMap(map);
   directionsDisplay.setPanel(document.getElementById("directions-panel"));
@@ -35,10 +33,6 @@ function hasSensor(position){
 function initialize() {
   var mapOptions = {
       zoom: 17,
-      // minZoom: 10,
-      // draggable: false,
-      // panControl: true,
-      // zoomControl: true,
       center: destLatLng,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -48,6 +42,8 @@ function initialize() {
 
   if (navigator.geolocation){
     navigator.geolocation.getCurrentPosition(hasSensor);
+  } else {
+    document.getElementById("directions-panel").appendChild("<p>Failed to locate position</p>");
   }
 }
 
