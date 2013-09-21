@@ -1,0 +1,34 @@
+td.adp-text {
+  padding-left:30px;
+  background-color:#12a5b0;
+}
+.adp-placemark {
+  margin: 0 0;
+}
+#directions-panel {
+  max-width:720px;
+  margin:auto;
+}
+#map-canvas {
+  max-width:960px;
+  margin:20px auto;
+  height:60%;
+}
+section {
+  padding:15px 0
+}
+main {
+  text-align:center;
+}
+.navbar-brand {
+  padding-left:30px;
+  padding-right:30px;
+  font-family: 'Lobster', cursive;
+}
+.navbar-inverse {
+  border-color: #8e1821;
+  background-color: #8e1821;
+}
+.gold.navbar-brand {
+  color: #e8d069;
+}

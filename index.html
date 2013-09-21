@@ -1,0 +1,55 @@
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  </head>
+  <body>
+    <header class="navbar navbar-inverse bs-docs-nav" role="banner">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="./" class="navbar-brand">Super Smash Repairs</a>
+          <div style="display: inline-block; float:left;">
+            <a href="#contactus" class="gold navbar-brand">Contact Us</a>
+            <a href="#findus" class="gold navbar-brand">Find Us</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section>
+        <p>Super Smash Repairs is a leading panel beater and spray painter located in Rosebery.</p>
+        <p>Established over 40 years ago, we have the experience to provide you with top quality repair work in a shorter amount of time.</p>
+        <br/>
+        <img src="front.jpg" alt="Front Entrance">
+      </section>
+      <section>
+        <a name="contactus"></a><h1>Contact</h1>
+        <p><i class="icon-phone icon-2"></i>  <a href="tel:0296696992">(02) 9669 6992</a></p>
+        <p><i class="icon-print icon-2"></i>  (02) 9669 3700</p>
+        <p><i class="icon-envelope icon-2"></i>  765 Botany Road<br/>Rosebery NSW 2018</p>
+        <p><i class="icon-envelope-alt icon-2"></i>  <a href="mailto:supersmashrepairs@bigpond.com">supersmashrepairs@bigpond.com</a></p>
+      </section>
+      <section>
+        <a name="findus"></a><h1>Getting to Us</h1>
+        <noscript><b>JavaScript must be enabled in order for you to use Google Maps.</b> 
+          However, it seems JavaScript is either disabled or not supported by your browser. 
+          To view Google Maps, enable JavaScript by changing your browser options, and then 
+          try again.
+        </noscript>
+        <div id="map">
+          <a href="http://maps.google.com/maps?q=Super%20Smash%20Repairs%20Rosebery">Open with Google Maps!</a>
+          <br/>
+          <div id="map-canvas"></div>
+          <h1>Directions</h1>
+          <div id="directions-panel"></div>
+        </div>
+      </section>
+    </main>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="map.js"></script>
+  </body>
+</html>
