@@ -17,6 +17,10 @@ td.adp-text {
 section {
   padding:15px 0
 }
+.navbar-header {
+  display: inline;
+  float:none;
+}
 main {
   text-align:center;
 }
