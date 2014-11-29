@@ -15,6 +15,7 @@ function hasSensor(position){
   var directionsDisplay = new google.maps.DirectionsRenderer();
   var originLatLng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
   directionsDisplay.setMap(map);
+  document.getElementById('directions-header').style.display = "block"
   directionsDisplay.setPanel(document.getElementById("directions-panel"));
   var request = {
     origin: originLatLng,

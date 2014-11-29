@@ -6,6 +6,10 @@ td.adp-text {
   margin: 0;
 }
 
+#directions-header {
+  display: none;
+}
+
 #directions-panel {
   max-width: 720px;
   margin: auto;
