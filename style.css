@@ -19,7 +19,8 @@ td.adp-text {
 }
 
 #directions-panel,
-.adp {
+.adp,
+table {
   background-color: white;
 }
 
